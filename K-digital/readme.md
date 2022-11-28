@@ -10,3 +10,9 @@
   * Spyder: https://www.spyder-ide.org/
     * 통합 개발 환경(Integrated Development Environment).
     * 코딩, 디버그, 컴파일, 배포 등 프로그램 개발에 관련된 모든 작업을 하나의 프로그램 안에서 처리하는 환경을 제공하는 소프트웨어.
+    * 콘솔창에 input 가능한 기능 제공
+
+### 3. 브라우저 ide
+  * colab: https://colab.research.google.com/
+    * 브라우저 내에서 python 스크립트를 작성하고 실행할 수 있음.
+    * 직관적인 프레임으로 메모와 코드를 쉽게 추가/삭제 할 수 있음.
