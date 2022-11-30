@@ -106,18 +106,32 @@
       1) ide에서 파일 열기
           - 가공하려는 텍스트파일을 py 저장소와 같은 폴더에 저장 
              or 'import os' → os.chdir(r'경로')
+             
           - 파일 열어서 확인
             • f = open('friends101.txt', 'r' )
+            
           - read한 파일을 출력하기 위해서 변수에 저장
             • s101 = f.read()
+            
           - 콘솔에 출력해서 내용 확인
             • print(s101)
        
        2) 작업
            - 모니카 라인 찾기
+             ex)  >>> Monica_Line = re.findall(r'Monica:.+', s101)    //정규 표현식으로 모니카 라인 추출
+                  >>> monica = ''       // 빈 문자열을 저장하면 문자열 형식의 객체가 생성됨. 여기 Monica텍스트를 문자열 형식으로 저장
+                  >>> for i in Monica_Line:
+                         monica += i + "\n"
+                  >>> f = open('Monica.txt', 'w')
+                  >>> f.write(monica)
+                  >>> f.close()
+             
            - 등장인물 찾기 (1), (2)
+           - 
            - 괄호 안의 문자열만 검색
+           
            - 특정 단어가 포함된 문자열 찾기
+           - 
     ```
 
 ---
