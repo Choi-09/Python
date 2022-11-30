@@ -186,14 +186,14 @@
                   for i in reader:
                      output.append(i)
                   return output
-              * 읽을때: opencsv("파일명")  
+              * 읽을때: .opencsv("파일명")  
 
          (2) writecsv
              • def writecsv(filename, the_list):    // filename: 만들 파일이름, the_list: csv형 리스트 저장객체
                   with open(filename, "w", newline = '') as f:    // with문으로 자동close.
                       a = csv.writer(f, delimiter = ',')
                       a.writerows(the_list)
-               * 쓸때: writecsv("파일명", csv형리스트 객체명)       
+               * 쓸때: .writecsv("파일명", csv형리스트 객체명)       
                  
           (3) switchcsv
               • def switch(listName):
@@ -204,7 +204,7 @@
                           except:
                              pass
                   return listName 
-                * 바꿀때: switch(opencsv변수명) 
+                * 바꿀때: .switch(opencsv변수명) 
           ```
                       
   + 3-3. csv파일 안의 문자 → 숫자 전환
