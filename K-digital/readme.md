@@ -193,14 +193,42 @@
                   with open(filename, "w", newline = '') as f:    // with문으로 자동close.
                       a = csv.writer(f, delimiter = ',')
                       a.writerows(the_list)
-                      
+               * 쓸때: writecsv("파일명", csv형리스트 객체명)       
+                 
           (3) switchcsv
-              •
+              • def switch(listName):
+                  for i in listName:
+                      for j in i:
+                          try:
+                             i[i.index[j]] = float(re.sub(',', '', j))
+                          except:
+                             pass
+                  return listName 
+                * 바꿀때: switch(opencsv변수명) 
           ```
                       
   + 3-3. csv파일 안의 문자 → 숫자 전환
     ```
-    (1)
+    (1) 숫자만 있고 자릿수 콤마가 없는 경우
+        ex) >>> n = '123456'
+            >>> print(float(n))
+                (or) print(int(n))
+    
+    (2) 숫자만 있고 자릿수 콤마가 있는 경우: re.sub() 함수로 쉼표 제거 후 float()함수 사용
+        ex) >>> j = '1,234,567'
+            >>> k = float(re.sub(',', "", j))
+            >>> print(k)
+          
+    (3) 문자형 숫자만 골라서 숫자형으로 바꾸기
+        ex) p = ['123강남', '151,767', '11,093', '27,397']
+            k = []
+            >>> for i in total:
+            >>>    for j in i:   
+            >>>       try :
+            >>>           i[i.index(j)] = float(re.sub(',', '', j))
+            >>>       except:
+            >>>           pass
+            >>> print(i)        
     ```
   + 3-4. csv파일 데이터 분석
 
