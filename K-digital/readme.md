@@ -98,8 +98,8 @@
       5) 정규 표현식(하단 표)
        
     ```
-     ![정규표현식](https://user-images.githubusercontent.com/51871037/204280554-2bfc2bcc-1aba-4a4f-9670-fdb9480d417e.png)
-     ![image](https://user-images.githubusercontent.com/51871037/204777884-306f1df9-5163-46bd-9ac2-22068be14fa8.png)
+       ![정규식 메타문자](https://user-images.githubusercontent.com/51871037/204778769-edc25817-8928-49ad-807c-4d9126817039.PNG)
+
 
   + 2-3. 드라마 대본파일 가공
   
