@@ -95,11 +95,15 @@
               ['91년', '97년', '2020년']
 
 
-      5) 정규 표현식
+      5) 정규 표현식(하단 표)
        
     ```
      ![정규표현식](https://user-images.githubusercontent.com/51871037/204280554-2bfc2bcc-1aba-4a4f-9670-fdb9480d417e.png)
+     ![image](https://user-images.githubusercontent.com/51871037/204777884-306f1df9-5163-46bd-9ac2-22068be14fa8.png)
+
   + 2-3. 드라마 대본파일 가공
+  
+  
 
 ---
 ### 3. CSV파일로 데이터 다루기
