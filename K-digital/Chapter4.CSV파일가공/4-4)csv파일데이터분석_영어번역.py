@@ -43,16 +43,16 @@ K = '''중국의 핵탄두 비축량이 이전에 미국이 추정한 것보다 
 
 #E = re.sub(r"[[:punct:]]","",E) # punctuation: 문장기호들을 다 찾는다, "": 없애준다.
 #모든 기호면 .,도 포함해서 없어지므로 다른 정규표현식 필요
-E = re.sub(r"[\n]","", E)
-Elist = re.split(r'\.', E) #\. : 문자 .
+E = re.sub(r"[\n]","", E)   # \n 삭제
+Elist = re.split(r'\.', E) #\. : 문자 .   : Elist는 E를 .으로 나눈 원소들을 갖는다.
 
 K = re.sub(r"[\n]","", K)
 Klist = re.split(r'\.', K)
 
 total = []
 
-for i in range(len(Elist)):
-    total.append([Elist[i],"|",Klist[i]])
+for i in range(len(Elist)): # Elist의 길이만큼 돌면서(E와 K의 길이가 같다는 전제 하에.)
+    total.append([Elist[i],"|",Klist[i]])   # Elist | Klist 의 형태로 두 데이터를 붙인다.
     
-usecsv.writecsv("E_KTranslate.csv", total)
+usecsv.writecsv("E_KTranslate.csv", total)  #붙인 데이터를 total에 쓰고, "E_KTranslate" 이라는 csv파일로 만든다.
         
