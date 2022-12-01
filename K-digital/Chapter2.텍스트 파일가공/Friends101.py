@@ -5,7 +5,7 @@ Created on Mon Nov 28 15:48:39 2022
 @author: user
 """
 #모듈 임포트
-import re,os  
+import re,os    
 
 # python  파일이저장된 폴더에 friends101.txt파일 저장
 # friends101.txt 파일 reading모드로 열기
