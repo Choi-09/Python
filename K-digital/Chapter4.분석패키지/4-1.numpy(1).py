@@ -60,9 +60,7 @@ print(arr, arr.dtype)
 arr = arr.astype(np.float32)
 print(arr, arr.dtype)
 
-
 ### 데이터 타입이 흔재하는 경우
-
 #(1) int, float타입 혼재
 arr = np.array([1,2,3.4])   # 배열의 원소가 int, float 혼재
 print(arr, arr.dtype)       # float 타입으로 출력
@@ -95,18 +93,18 @@ arr = np.eye(3)   #k: 대각원소의 발생지점을 어느부분으로 할 지
 print(arr)
 
 
-## 지정된 배열과 똑같은 크기의 배열 만들기 =============================================================
+### 지정된 배열과 똑같은 크기의 배열 만들기
 arr = np.array([[1,2,3], [4,5,6]])
 
-### np.zeros_like()
+#(1) np.zeros_like()
 arr_z = np.zeros_like(arr)
 print(arr_z)
 
-### np.ones_like()
+#(2) np.ones_like()
 arr_o = np.ones_like(arr)
 print(arr_o)
 
-### np.full_like()
+#(3) np.full_like()
 arr_f = np.full_like(arr, 3)
 print(arr_f)
 
