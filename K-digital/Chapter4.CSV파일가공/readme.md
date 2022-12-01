@@ -46,6 +46,7 @@
     ```
       + csv파일 읽기, 쓰기, (숫자로)전환하기 라이브러리
          ```
+         >>> py 파일로 저장 후 python 폴더 > Lib에 저장
          (1) opencsv 
              • def opencsv(filename):
                   f = open("파일명", "r)
