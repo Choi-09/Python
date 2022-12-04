@@ -28,7 +28,7 @@ import pandas as pd  #판다스 임포트
 # In[4]:
 
 
-temp = pd.Series([-20, -10, 10, 20])
+temp = pd.Series([-20, -10, 10, 20])  
 print(temp)
 
 
