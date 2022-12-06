@@ -40,11 +40,11 @@ def opencsv(filename):
 
 
 # 3. csv파일 쓰기모드로 불러오기 (with as f사용)
-def writecvs(filename, the_list):
+def writecsv(filename, the_list):
     with open(filename, "w", newline="", encoding = 'utf-8') as f:  # newline = "" : 개행을 없애준다,
                                                                     # with를 사용하면 마지막에 f.close()하지않아도 된다.
         write = csv.writer(f, delimiter = ",")  # csv리스트의 원소가 ;로 구분되어있으면 ";" 사용
-        write.wirterows(the_list)
+        write.wterows(the_list)
 
 
 # 4. csv파일 안의 문자를 숫자로 전환하기 
