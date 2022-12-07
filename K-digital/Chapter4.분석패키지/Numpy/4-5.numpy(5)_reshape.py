@@ -1,5 +1,5 @@
 #5. N차원 배열의 형태 변경  
-import numpy as np
+import numpy as np  
 # 5-1. 배열의 형태변경1: reshape()
 '''
 #1. 1차원 배열을 1+n차원 배열로 만들기
