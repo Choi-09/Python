@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # 7. 여러 데이터
+# # 7. 여러 데이터  
 
-# In[1]:
+# In[1]:  
 
 
 import matplotlib.pyplot as plt
