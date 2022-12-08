@@ -2,7 +2,7 @@
 
 ### 목차:
 1. [기초문법](https://github.com/Choi-09/Python/tree/main/K-digital/Chapter1.%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95)
-2. [텍스트 파일 가공](https://github.com/Choi-09/Python/tree/main/K-digital/Chapter3_2.%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D)
+2. [텍스트 파일 가공](https://github.com/Choi-09/Python/tree/main/K-digital/Chapter2.%ED%85%8D%EC%8A%A4%ED%8A%B8%20%ED%8C%8C%EC%9D%BC%EA%B0%80%EA%B3%B5)
 3. [CSV파일로 데이터 다루기](https://github.com/Choi-09/Python/tree/main/K-digital/Chapter3.CSV%ED%8C%8C%EC%9D%BC%EA%B0%80%EA%B3%B5)
 4. [다양한 패키지로 데이터 분석](https://github.com/Choi-09/Python/tree/main/K-digital/Chapter4.%EB%B6%84%EC%84%9D%ED%8C%A8%ED%82%A4%EC%A7%80)
 5. [웹크롤링](#5.-웹크롤링)
