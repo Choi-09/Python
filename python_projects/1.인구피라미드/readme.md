@@ -1,5 +1,14 @@
 ## 2012년, 2022년도 전국 인구 데이터 비교
 
 ### 1. 행정안전부 사이트에서 전국 인구 데이터 가져오기
+  + skiprows = 3
+  + index_col = '행정기관'
+  + usecols = 'B, E:Y'
+  
 ### 2. pandas로 데이터를 성별로 나누기
+  + df_m.iloc[0].str.replace(",", "").astype(int)
+ 
 ### 3. matplotlib 으로 인구 피라미드 시각화
+  + plt.barh(x축, y축)
+  + plt.title('제목')
+  + plt.savefig('파일명')
