@@ -85,4 +85,7 @@
 
         (8) 글씨 선명하게 출력하는 설정
             • %config InlineBackend.figure_format = 'retina'
-     ```
+       ```
+### 4. 데이터분석 대회 사이트
+  + https://dacon.io/
+  + https://www.kaggle.com/code/cipollinonewbie/prediction-through-the-decision-tree-93
