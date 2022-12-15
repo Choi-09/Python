@@ -7,7 +7,7 @@
   
 ### 2. pandas로 데이터를 성별로 나누기
   + df_m.iloc[0].str.replace(",", "").astype(int)
- 
+ ㅈ
 ### 3. matplotlib 으로 인구 피라미드 시각화
   + plt.barh(x축, y축)
   + plt.title('제목')
