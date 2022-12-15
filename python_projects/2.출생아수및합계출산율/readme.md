@@ -1,4 +1,4 @@
-## 2012년 ~ 2022년 출생아 수 및 합계 출산율 변화 추이
+## 2012년 ~ 2021년 출생아 수 및 합계 출산율 변화 추이
 ### 1. 나라지표 사이트에서 출생아 수 및 합계출산율 데이터 가져오기
   + import pandas
   + pd.read_excel('파일명', skiprows, nrows, index_col)
@@ -20,3 +20,13 @@
   + for idx, val in enumerated(): 튜플형태만 그래프에 붙일 수 있어서 index와 value가 튜플형태로 나오는 enumerated()함수 사용
   + marker, markerSize(ms), lineWidth(lw), markerEdgeColor(mec), marderEdgeWidth(mew) 설정
   
+### 5. 결론
+  + 2021년 기준 가임기 여성 1인당 0.8명의 자녀를 출산한다.
+
+### 6. 질문(22.12.15)
+  + 출산율이 감소하는 이유는?
+  + 현재 시행중인 출산장려 정책은? 
+  + 실직적으로 도움이 될 만한 정부 지원방안은?
+
+### 7. 참고사이트
+  + 지표누리: http://index.go.kr/common/error.html
