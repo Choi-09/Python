@@ -15,7 +15,7 @@ subway
 
 # In[8]:
 
-
+ 
 subway = ["유재석", "조세호", "박명수"]
 subway
 
