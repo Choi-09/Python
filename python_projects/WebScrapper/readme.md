@@ -9,3 +9,11 @@
 ### 3. FLASK
   + templates: Flask로 간단한 스크래핑 페이지 만들기
   + https://Challenge5publishingFlask.choi-09.repl.co
+
+### 4. FLASK 화면
+#### /home
+<img src = https://user-images.githubusercontent.com/51871037/221354244-5aae1f1d-8784-4825-aa36-d0553bb575aa.PNG>
+<br>
+
+#### /search
+<img src = https://user-images.githubusercontent.com/51871037/221354444-8d728ea8-89ab-4e92-83e5-5e1dc1182e1d.png>
