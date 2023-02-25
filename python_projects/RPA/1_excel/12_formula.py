@@ -11,7 +11,7 @@ ws['A3'] = "=Average(1,2,3)" # (1+2+3)/3 = 2
 ws['A4'] = 10
 ws['A5'] = 20
 ws['A6'] = 30
-ws["A7"] = "=SUM(A4:A6)"
+ws["A7"] = "=SUM(A4:A6)" 
 
 
 wb.save("rpa_formula.xlsx")
