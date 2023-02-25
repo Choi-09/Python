@@ -11,10 +11,10 @@
   + https://Challenge5publishingFlask.choi-09.repl.co
 
 ### 4. FLASK 화면
-#### /Home
+#### /home
 ![home](https://user-images.githubusercontent.com/51871037/221354244-5aae1f1d-8784-4825-aa36-d0553bb575aa.PNG)
 
 <br>
 
-#### /Search
-![search](https://user-images.githubusercontent.com/51871037/221354247-3a6d5c6c-fe35-44e7-b863-d83efd428006.PNG)
+#### /search
+https://www.figma.com/file/ufnsy7DB96RQ247O1KQpRk/%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%84%B1%EB%8F%84?node-id=93%3A142&t=2lAtBQENIlPWiChX-4
