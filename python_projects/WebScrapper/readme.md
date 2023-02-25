@@ -12,9 +12,9 @@
 
 ### 4. FLASK 화면
 #### /home
-![home](https://user-images.githubusercontent.com/51871037/221354244-5aae1f1d-8784-4825-aa36-d0553bb575aa.PNG)
+<img src = https://user-images.githubusercontent.com/51871037/221354244-5aae1f1d-8784-4825-aa36-d0553bb575aa.PNG>
 
 <br>
 
 #### /search
-https://www.figma.com/file/ufnsy7DB96RQ247O1KQpRk/%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%84%B1%EB%8F%84?node-id=93%3A142&t=2lAtBQENIlPWiChX-4
+<img src = https://user-images.githubusercontent.com/51871037/221354444-8d728ea8-89ab-4e92-83e5-5e1dc1182e1d.png>
